@@ -1,0 +1,208 @@
+﻿<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Your Modern Website</title>
+    <style>
+        body {
+            font-family: 'Arial', sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f8f8f8;
+            color: #333;
+        }
+
+        header {
+            background-color: #131313;
+            color: #fff;
+            padding: 20px;
+            text-align: center;
+        }
+
+        section {
+            padding: 20px;
+        }
+
+        footer {
+            background-color: #0081c4;
+            color: #fff;
+            padding: 10px;
+            text-align: center;
+            position: fixed;
+            bottom: 0;
+            width: 100%;
+        }
+        nav {
+            background-color: #3e3b34;
+            padding: 10px;
+            text-align: center;
+        }
+
+        nav a {
+            color: #fff;
+            text-decoration: none;
+            padding: 10px;
+            display: block;
+            text-align: center;
+            display: none; /* Initially hide the links */
+        }
+
+        nav a:hover {
+            background-color: #16587e;
+        }
+
+        .menu-icon {
+            display: none; /* Initially hide the hamburger icon on larger screens */
+            cursor: pointer;
+	    color: white;
+        }
+
+        @media only screen and (max-width: 768px) {
+            nav a {
+                display: block; /* Show links when the screen size is small */
+            }
+
+            .menu-icon {
+                display: block; /* Show the hamburger icon on small screens */
+            }
+
+            nav.active {
+                display: block; /* Show the links when the menu is active */
+            }
+
+            nav:not(.active) a {
+                display: none; /* Hide links when the menu is not active */
+            }
+        }
+        .search-container {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            margin: 20px;
+        }
+
+        input[type="text"] {
+            width: 70%;
+            padding: 10px;
+            border-radius: 5px;
+            box-shadow: 0 0 5px rgba(0, 0, 0, 0.1);
+            font-size: 16px;
+        }
+
+        button {
+            background-color: #0081c4;
+            color: #fff;
+            padding: 10px 20px;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+            font-size: 16px;
+            margin-left: 10px;
+        }
+        table {
+            width: 100%;
+            border-collapse: collapse;
+            margin: 20px;
+            box-shadow: 0 0 5px rgba(0, 0, 0, 0.1);
+        }
+
+        th, td {
+            padding: 15px;
+            text-align: left;
+            border-bottom: 1px solid #ddd;
+        }
+.button {
+  background-color: #222;
+  border-radius: 4px;
+  border-style: none;
+  box-sizing: border-box;
+  color: #fff;
+  cursor: pointer;
+  font-size: 16px;
+  font-weight: 700;
+  line-height: 1.5;
+  margin: 0;
+  max-width: none;
+  outline: none;
+  overflow: hidden;
+  padding: 9px 20px 8px;
+  position: relative;
+  text-align: center;
+  text-transform: none;
+  user-select: none;
+  -webkit-user-select: none;
+  touch-action: manipulation;
+}
+
+.button:hover,
+.button:focus {
+  opacity: .75;
+}
+    </style>
+</head>
+<body>
+
+    <header>
+        <h1>Infonotice Search</h1>
+        <p>Mobile Search</p>
+    </header>
+    <nav>
+        <div class="menu-icon" onclick="toggleMenu()">☰</div>
+        <a href="#">Home</a>
+        <a href="#">Categories</a>
+        <a href="#">List</a>
+        <a href="#">Utilities</a>
+    </nav>
+    <section>
+        <h2>Infonotice Mobile Search</h2>
+        <p>Search for any website or keyword in the box below to find results</p>
+    </section>
+    <div class="search-container">
+        <input type="text" placeholder="Search..." id="searchbox">
+        <button type="submit" onclick="searchengine()">Search</button>
+    </div>
+    <section>
+        <h2 id="results"></h2>
+        <table id="Table"></table>
+    </section>
+    
+
+    <footer>
+        &copy; 2024 Your Website. All rights reserved.
+    </footer>
+    <script>
+        function toggleMenu() {
+            var nav = document.querySelector('nav');
+            nav.classList.toggle('active');
+        }
+        function searchengine() {
+            const input = document.getElementById("searchbox").value.toLowerCase();
+            fetch('https://drive.google.com/file/d/1mn6iIrcxG34WZdiqiAK4IZHYcjwt03eX')
+                .then(response => response.text())
+                .then(xmlString => {
+                    const parser = new DOMParser();
+                    const xmlDoc = parser.parseFromString(xmlString, "text/xml");
+                    const items = xmlDoc.getElementsByTagName("item");
+
+                    let result = '';
+                    for (let i = 0; i < items.length; i++) {
+                        const tags = items[i].getElementsByTagName("tags")[0].textContent.toLowerCase();
+                        const name = items[i].getElementsByTagName("name")[0].textContent.toLowerCase();
+                        const desc = items[i].getElementsByTagName("desc")[0].textContent.toLowerCase();
+                        const link = items[i].getElementsByTagName("link")[0].textContent.toLowerCase();
+
+                        if (name.includes(input) || tags.includes(input)) {
+                            result += `<tr><th>${name}</th></tr><tr><td>${desc}</td></tr><tr><td>${link}</td></tr><tr><td><form action="${link}"><input type="submit" value="Go to" class="button" /></form></td></tr>`;
+                        }
+                    }
+                    document.getElementById("results").innerHTML = 'Results for: ' + input;
+                    document.getElementById("Table").innerHTML = result || 'This term does not exist or a page hasent been made for it yet.';
+                })
+                .catch(error => {
+
+                });
+        }
+    </script>
+</body>
+</html>
