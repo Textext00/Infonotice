@@ -1,0 +1,286 @@
+<items>
+	<item>
+		<tags>infonoticesearchbrowserinternet</tags>
+		<name>Infonotice Search</name>
+		<desc>NA</desc>
+		<link>NA</link>
+	</item>
+	<item>
+		<tags>infonoticesearchbrowserinternet</tags>
+		<name>Infonotice Browser</name>
+		<desc>NA</desc>
+		<link>NA</link>
+	</item>
+	<item>
+		<tags>artsphotosimagesmedia</tags>
+		<name>INImages</name>
+		<desc>NA</desc>
+		<link>NA</link>
+	</item>
+	<item>
+		<tags>artsphotosimages</tags>
+		<name>Draw.io</name>
+		<desc>Security-first diagramming for teams.</desc>
+		<link>https://www.drawio.com/</link>
+	</item>
+	<item>
+		<tags>literaturebooksarticlessoftwarehardwarecomputerstechnology</tags>
+		<name>The Techinfopage</name>
+		<desc>The TechInfoPage is about many components and subjects related to Information Technology and Sciences.</desc>
+		<link>https://sites.google.com/view/techinfopagelibrary/home</link>
+	</item>
+	<item>
+		<tags>literaturebooksarticleshealth</tags>
+		<name>Springer.com</name>
+		<desc>Our business is publishing</desc>
+		<link>https://www.springer.com/us</link>
+	</item>
+	<item>
+		<tags>literaturebooksarticlesmagazines</tags>
+		<name>INBooks</name>
+		<desc>na</desc>
+		<link>na</link>
+	</item>
+	<item>
+		<tags>businesscompaniesjobs</tags>
+		<name>Linkedin</name>
+		<desc>Welcome to your professional community</desc>
+		<link>https://www.linkedin.com/</link>
+	</item>
+	<item>
+		<tags>businesscompaniesjobs</tags>
+		<name>Indeed</name>
+		<desc>Home . Company reviews . Find salaries</desc>
+		<link>https://www.indeed.com/</link>
+	</item>
+	<item>
+		<tags>businesscompaniesjobs</tags>
+		<name>Monster.com</name>
+		<desc>Find Jobs . Salary Tools . Career Advice . Resume Help . Upload Resume</desc>
+		<link>https://www.monster.com/</link>
+	</item>
+	<item>
+		<tags>businesseconomyinvestmentsjobsnft</tags>
+		<name>Opensea.io</name>
+		<desc>Drops . Stats . Create</desc>
+		<link>https://opensea.io/</link>
+	</item>
+	<item>
+		<tags>businesseconomyinvestmentsjobsnft</tags>
+		<name>Metamask.io</name>
+		<desc>A crypto wallet and gateway to blockchain apps</desc>
+		<link>https://metamask.io/</link>
+	</item>
+	<item>
+		<tags>businesseconomyinvestmentsjobsstocks</tags>
+		<name>Interactivebrokers</name>
+		<desc>Experience the Future of Desktop Trading</desc>
+		<link>https://www.interactivebrokers.com/en/home.php</link>
+	</item>
+	<item>
+		<tags>businesseconomyinvestmentsjobsstocks</tags>
+		<name>Webull</name>
+		<desc>Invest in Stocks, ETFs, and Options</desc>
+		<link>https://www.webull.com/</link>
+	</item>
+	<item>
+		<tags>computerssoftwaretechnology</tags>
+		<name>Github</name>
+		<desc>Let’s build from here. The world’s leading AI-powered developer platform.</desc>
+		<link>https://github.com/</link>
+	</item>
+	<item>
+		<tags>computerssoftwaretechnology</tags>
+		<name>JQuery</name>
+		<desc>jQuery is a fast, small, and feature-rich JavaScript library.</desc>
+		<link>https://jquery.com/</link>
+	</item>
+	<item>
+		<tags>computerssoftwaretechnology</tags>
+		<name>JQueryUI</name>
+		<desc>jQuery UI is a curated set of user interface interactions, effects, widgets, and themes built on top of the jQuery JavaScript Library.</desc>
+		<link>https://jqueryui.com/</link>
+	</item>
+	<item>
+		<tags>computerssoftwaretechnology</tags>
+		<name>W3Schools</name>
+		<desc>Learn to Code with the world's largest web developer site.</desc>
+		<link>https://spaces.w3schools.com/space/</link>
+	</item>
+	<item>
+		<tags>computershardwaretechnology</tags>
+		<name>Newegg</name>
+		<desc>Components and Storage . Computer Systems . Computer Peripherals</desc>
+		<link>https://www.newegg.com/</link>
+	</item>
+	<item>
+		<tags>computershardwaretechnology</tags>
+		<name>Microcenter</name>
+		<desc>Products . Top Deals . PC Parts</desc>
+		<link>https://www.microcenter.com/</link>
+	</item>
+	<item>
+		<tags>media</tags>
+		<name>INDocs</name>
+		<desc>na</desc>
+		<link>na</link>
+	</item>
+	<item>
+		<tags>media</tags>
+		<name>INTable</name>
+		<desc>na</desc>
+		<link>na</link>
+	</item>
+	<item>
+		<tags>ani</tags>
+		<name>Aniwatch</name>
+		<desc>The best site to watch anime online for Free</desc>
+		<link>https://aniwatch.to/</link>
+	</item>
+	<item>
+		<tags>musicsongsentertainment</tags>
+		<name>Spotify</name>
+		<desc>Log in to Spotify</desc>
+		<link>https://accounts.spotify.com/</link>
+	</item>
+	<item>
+		<tags>musicsongsentertainment</tags>
+		<name>Soundcloud</name>
+		<desc>Discover more with SoundCloud Go+</desc>
+		<link>https://soundcloud.com/</link>
+	</item>
+	<item>
+		<tags>vehiclesaeronauticsplanesaviationaircraft</tags>
+		<name>Boeing</name>
+		<desc>Commercial . Defense . Space</desc>
+		<link>https://www.boeing.com/</link>
+	</item>
+	<item>
+		<tags>vehiclesaeronauticsplanesaviationaircraft</tags>
+		<name>Airbus</name>
+		<desc>Products and Services, Cutting-edge solutions for our customers around the globe</desc>
+		<link>https://www.airbus.com/en/products-services</link>
+	</item>
+  <item>
+    <tags>vehiclesaeronauticsplanesaviationjetsmilitaryaircraft</tags>
+    <name>Inclusive Aviation Fax</name>
+    <desc>This website is InclusiveAviationFax, which is a useful wikipedia about aircraft</desc>
+    <link>https://inclusiveaviationfax.w3spaces.com/iafmain.html</link>
+  </item>
+  <item>
+    <tags>vehiclescarsautomotors</tags>
+    <name>Lexus</name>
+    <desc>SHOP . BUILD YOUR LEXUS . FIND A DEALER . OFFERS</desc>
+    <link>https://www.lexus.com/</link>
+  </item>
+  <item>
+    <tags>vehiclescarsautomotors</tags>
+    <name>Toyota</name>
+    <desc>SET YOUR LOCATION, Enter your Zip Code to search inventory in your area.</desc>
+    <link>https://www.toyota.com/search-inventory/</link>
+  </item>
+  <item>
+    <tags>vehiclescarsautomotorselectric carsecars</tags>
+    <name>BMW</name>
+    <desc>Models . Build Your Own . Shopping . BMW Electric . Owners</desc>
+    <link>https://www.bmwusa.com/</link>
+  </item>
+  <item>
+    <tags>vehiclescarsautomotorselectric carsecars</tags>
+    <name>Tesla</name>
+    <desc>Inventory . Registration Zip Code, Where you will register the vehicle</desc>
+    <link>https://www.tesla.com/inventory</link>
+  </item>
+  <item>
+    <tags>vehiclescarsautomotorselectric carsecars</tags>
+    <name>Lucid</name>
+    <desc>OVERVIEW: Reclaim the road in an electric 4-door that opens up the world.</desc>
+    <link>https://www.lucidmotors.com/air#overview</link>
+  </item>
+  <item>
+    <tags>lawsgovernmentregulations</tags>
+    <name>USA Gov</name>
+    <desc>Federal laws and regulations: Research federal laws and the lawmaking process. Learn about impeachment. Get copies of your government files. And find out about copyrighted government creative works.</desc>
+    <link>https://www.usa.gov/laws-and-regulations</link>
+  </item>
+  <item>
+    <tags>vehiclesaeronauticsplanesaviationjetsmilitaryaircraftgovernment</tags>
+    <name>US Airforce</name>
+    <desc>US Airforce Aircraft Fact Sheets</desc>
+    <link>https://www.af.mil/About-Us/Fact-Sheets/</link>
+  </item>
+  <item>
+    <tags>quranislamicreligionlifestylesurahs</tags>
+    <name>Quran.com</name>
+    <desc>Introducing Quran Growth Journey</desc>
+    <link>https://quran.com/</link>
+  </item>
+  <item>
+    <tags>hadithsunnahislamicreligionlifestyle</tags>
+    <name>Sunnah.com</name>
+    <desc>Sunnah.com</desc>
+    <link>https://sunnah.com/</link>
+  </item>
+  <item>
+    <tags>healthgovernmentwellnesscarefitness</tags>
+    <name>NIH: National Institutes Of Health</name>
+    <desc>Turning Discovery Into Health</desc>
+    <link>https://www.nih.gov/</link>
+  </item>
+  <item>
+    <tags>healthhospitalsclinicsmedicinedoctorswellnesscare</tags>
+    <name>Kaiser Permanente</name>
+    <desc>Learn . Shop Plans . Doctors and Locations . Health and Wellness . Get Care . Pay Bills</desc>
+    <link>https://healthy.kaiserpermanente.org/</link>
+  </item>
+  <item>
+    <tags>healthclinicsmedicinewellnesscaredrugsstoreshoppingbuyingproducts</tags>
+    <name>CVS</name>
+    <desc>Let’s make healthier happen together™</desc>
+    <link>https://www.cvs.com/</link>
+  </item>
+  <item>
+    <tags>healthgovernmentwellnesscarediseasesvirusessicknessinfectionscold</tags>
+    <name>CDC: Centers For Disease Control And Prevention</name>
+    <desc>CDC 24/7: Saving Lives, Protecting People</desc>
+    <link>https://www.cdc.gov/index.htm</link>
+  </item>
+  <item>
+    <tags>recreationalvideo gamesgamingentertainment</tags>
+    <name>Minecraft</name>
+    <desc>GAMES . COMMUNITY . MERCH . SUPPORT</desc>
+    <link>https://www.minecraft.net/en-us</link>
+  </item>
+  <item>
+    <tags>recreationalstoreshoppingbuyingproducts</tags>
+    <name>Lego.com</name>
+    <desc>Lego.com</desc>
+    <link>https://lego.com/</link>
+  </item>
+  <item>
+    <tags>recreationalvideo gamesgamingentertainment3Dobjects.obj</tags>
+    <name>INOBJECTS</name>
+    <desc>na</desc>
+    <link>na</link>
+  </item>
+  <item>
+    <tags>recreationalvideo gamesgamingentertainment3Dobjects.obj</tags>
+    <name>Three.js</name>
+    <desc>Three.js</desc>
+    <link>https://threejs.org/</link>
+  </item>
+  <item>
+    <tags>vehiclesaeronauticsplanesaviationaircraftbook a flightbook flightairlinestravellingbookingtrips</tags>
+    <name>SeatGuru</name>
+    <desc>Browse Airlines</desc>
+    <link>https://www.seatguru.com/browseairlines</link>
+  </item>
+  <item>
+    <tags>vehiclestravellingtrainsmetro linesrailsrailway</tags>
+    <name>WMATA: Washington Metropolitan Area Transit Authority</name>
+    <desc>Service . Schedules and Maps . RiderGuide . Fares . Initiatives . Business . About</desc>
+    <link>https://wmata.com/</link>
+  </item>
+</items>
+
+
