@@ -1,0 +1,328 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<title>My First Webpage</title>
+	<meta charset="utf-8">
+	<script src="https://rawgit.com/eKoopmans/html2pdf/master/dist/html2pdf.bundle.js"></script>
+<style>
+.sandbox {
+  border-style: solid;
+  border-color: black;
+  color: black;
+  font-family: arial;
+}
+li
+{
+	margin-left: 20px;
+}
+.cold {
+  border-style: solid;
+  border-color: #1E90FF;
+  background-color: #00BFFF;
+  color: #FFFAF0;
+}
+.warm {
+  border-style: solid;
+  border-color: #B22222;
+  background-color: #FF8C00;
+  color: #CD5C5C;
+  font-family: arial;
+}
+.highcontrast
+{
+	border-style: solid;
+    border-color: #696969;
+    background-color: #000000;
+    color: #F0FFFF;
+  font-family: arial;
+}
+.natural
+{
+	border-style: solid;
+    border-color: #006400;
+    background-color: #7FFF00;
+    color: #2F4F4F;
+  font-family: arial;
+}
+.watery
+{
+	border-style: solid;
+    border-color: #008080;
+    background-color: #40E0D0;
+    color: #4682B4;
+  font-family: arial;
+}
+.night
+{
+	border-style: solid;
+    border-color: #191970;
+    background-color: #663399;
+    color: #DDA0DD;
+  font-family: arial;
+}
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: #f4f4f4;
+}
+
+header {
+  background-color: #6a5acd;
+  color: #fff;
+  padding: 20px 0;
+}
+
+nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.logo {
+  font-size: 1.5rem;
+  padding: 10px;
+}
+
+.nav-links {
+  list-style: none;
+  display: flex;
+}
+
+.nav-links li {
+  margin-right: 20px;
+}
+
+.nav-links li a {
+  text-decoration: none;
+  color: #fff;
+  transition: color 0.3s ease;
+}
+
+.nav-links li a:hover {
+  color: #ffd700;
+}
+
+
+form {
+  background-color: #fff;
+  padding: 20px;
+  margin-top: 20px;
+  border-radius: 5px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  border-style: ridge;
+}
+
+input[type="text"],
+input[type="color"] {
+  margin-bottom: 10px;
+  padding: 5px;
+  border-radius: 5px;
+  border: 1px solid #ccc;
+}
+
+input[type="button"] {
+  padding: 8px 15px;
+  border: none;
+  background-color: #6a5acd;
+  color: #fff;
+  cursor: pointer;
+  border-radius: 5px;
+  transition: background-color 0.3s ease;
+}
+
+input[type="button"]:hover {
+  background-color: #4b0082;
+}
+
+#savesection button {
+  padding: 8px 15px;
+  border: none;
+  background-color: #6a5acd;
+  color: #fff;
+  cursor: pointer;
+  border-radius: 5px;
+  transition: background-color 0.3s ease;
+  border-style: ridge;
+}
+
+#savesection button:hover {
+  background-color: #4b0082;
+}
+</style>
+</head>
+
+
+
+<body>
+  <header>
+    <nav>
+      <div class="logo">INDocuments</div>
+      <ul class="nav-links">
+        <li><a href="#">Home</a></li>
+        <li><a href="#">INTable Maker</a></li>
+      </ul>
+    </nav>
+  </header>
+  <br>
+	<div class="sandbox" id="sandbox">
+		<ul id="listarea">
+		</ul>
+	</div>
+	<form>
+	<br>
+		Text Spell Checker: <input type="text">
+		<br>
+		<input type="button" id="insertHead" class="insertHead" value="Insert Heading">
+		<input type="button" id="insertSub" class="insertSub" value="Insert Subheading">
+		<input type="button" id="insertP" class="insertP" value="Insert Text">
+		<input type="button" id="insertL" class="insertL" value="Insert List Item">
+		<input type="button" id="remove" class="remove" value="Remove Last Object">
+		<br>
+		<br>
+		Change Page Background Color: 
+		<input type="color" id="bccolorPicker" value="#6a5acd">
+		<br>
+		Change Page Border Color: 
+		<input type="color" id="brcolorPicker" value="#6a5acd">
+		<br>
+		Change Page Font Color: 
+		<input type="color" id="ftcolorPicker" value="#6a5acd">
+		<br>
+		<input type="button" id="changefont" class="changefont" value="Change Page Font">
+		<br><br>
+		
+	</form>
+	<div id="savesection">
+		<button onclick="save()">Save Document</button></div>
+
+<script type="text/javascript">
+	
+	function start()
+	{
+			document.getElementById("insertHead").addEventListener("click",insertHead,false);
+			document.getElementById("insertSub").addEventListener("click",insertSub,false);
+			document.getElementById("insertP").addEventListener("click",insertP,false);
+			document.getElementById("insertL").addEventListener("click",insertL,false);
+			document.getElementById("remove").addEventListener("click",remove,false);
+			document.getElementById("changefont").addEventListener("click",changefont,false);
+	}
+	function insertHead()
+	{
+		var newlist = document.getElementById("listarea");
+		var newNode = document.createElement("h1");
+		var x = document.getElementById("myText");
+		text = window.prompt("Enter what you want the heading to say:");
+		var newText = document.createTextNode(text);
+		newNode.appendChild(newText);
+		newlist.appendChild(newNode);
+	}
+	
+	function insertSub()
+	{
+		var newlist = document.getElementById("listarea");
+		var newNode = document.createElement("h3");
+		var text;
+		text = window.prompt("Enter what you want the sub-heading to say:");
+		var newText = document.createTextNode(text);
+		newNode.appendChild(newText);
+		newlist.appendChild(newNode);
+	}
+	
+	function insertP()
+	{
+		var newlist = document.getElementById("listarea");
+		var newNode = document.createElement("p");
+		var text;
+		text = window.prompt("Enter what you want the text to say:");
+		var newText = document.createTextNode(text);
+		newNode.appendChild(newText);
+		newlist.appendChild(newNode);
+	}
+	
+	function insertL()
+	{
+		var newlist = document.getElementById("listarea");
+		var listItem = document.createElement("li");
+		var text;
+		text = window.prompt("Enter what you want the list item to say:");
+		listItem.textContent = text;
+		newlist.appendChild(listItem);
+	}
+	
+	function remove()
+	{
+		var newlist = document.getElementById("listarea");
+		var lastItem = newlist.lastElementChild;
+		if (lastItem) {
+			newlist.removeChild(lastItem);
+		}
+	}
+	
+	function changepagebc() {
+            var color = document.getElementById('bccolorPicker').value;
+            document.getElementById("sandbox").style.backgroundColor = color;
+            document.getElementById('box').value = color;
+    }
+	document.getElementById('bccolorPicker')
+	.addEventListener('input', changepagebc);
+	
+	function changepagebr() {
+            var color = document.getElementById('brcolorPicker').value;
+            document.getElementById("sandbox").style.borderColor = color;
+            document.getElementById('box').value = color;
+    }
+	document.getElementById('brcolorPicker')
+	.addEventListener('input', changepagebr);
+	
+	function changeftcolor() {
+            var color = document.getElementById('ftcolorPicker').value;
+            document.getElementById("sandbox").style.color = color;
+            document.getElementById('box').value = color;
+    }
+	document.getElementById('ftcolorPicker')
+	.addEventListener('input', changeftcolor);
+	
+	function changefont()
+	{
+		var newlist = document.getElementById("listarea");
+		var text;
+		text = window.prompt("Choose and enter a font:\n\nverdana\ntahoma\ntrebuchet\ncourier\ndef");
+		if (text == "verdana") {
+			newlist.setAttribute("style", "font-family:verdana;"); 
+		}
+		if (text == "tahoma") {
+			newlist.setAttribute("style", "font-family:tahoma;"); 
+		}
+		if (text == "trebuchet") {
+			newlist.setAttribute("style", "font-family:trebuchet ms;"); 
+		}
+		if (text == "courier") {
+			newlist.setAttribute("style", "font-family:Courier New;"); 
+		}
+		if (text == "def") {
+			newlist.setAttribute("style", "font-family:Arial;"); 
+		}
+	}
+	window.addEventListener("load",start,false);
+	
+	function save()
+	{
+		const newlist = document.getElementById("sandbox");
+		const theme = window.getComputedStyle(newlist);
+		const cssprop = document.createElement('div');
+        cssprop.innerHTML = '<h2>CSS:</h2>';
+		
+		for (const property in theme) {
+			const val = theme[property];
+			if (typeof val === 'string') {cssprop.innerHTML += '<p>${property}: ${val}</p>';}
+		}
+		newlist.appendChild(cssprop);
+		const properties = {margin: 1,filename: 'Document.pdf',image: { type: 'jpeg', quality: 0.98 },html2canvas: { scale: 2 },jsPDF: { unit: 'mm', format: 'a4', orientation: 'portrait' }};
+		html2pdf(newlist, properties);
+		newlist.removeChild(cssprop);
+	}
+	
+</script>
+</body>
+</html>
