@@ -306,10 +306,22 @@
 	    <link>https://www.gmu.edu/</link>
 	  </item>
 	  <item>
-	    <tags>drive google docs google slides google tables google forms google sites gmail</tags>
+	    <tags>drivegoogle docsgoogle slidesgoogle tablesgoogle formsgoogle sitesgmail cloudstoragespace</tags>
 	    <name>Google Drive</name>
 	    <desc>Choose an account</desc>
 	    <link>https://accounts.google.com/AccountChooser</link>
+	  </item>
+	  <item>
+	    <tags>google mailinboxemail</tags>
+	    <name>Gmail</name>
+	    <desc>Secure, smart, and easy to use email</desc>
+	    <link>https://www.google.com/gmail/about/</link>
+	  </item>
+	  <item>
+	    <tags>outlook mailinboxemail</tags>
+	    <name>Microsoft Outlook</name>
+	    <desc>Outlook for everyday email and calendars</desc>
+	    <link>https://www.microsoft.com/en-us/microsoft-365/outlook/email-and-calendar-software-microsoft-outlook</link>
 	  </item>
 </items>
 
