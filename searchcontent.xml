@@ -309,7 +309,7 @@
 	    <tags>drive google docs google slides google tables google forms google sites gmail</tags>
 	    <name>Google Drive</name>
 	    <desc>Choose an account</desc>
-	    <link>https://accounts.google.com/AccountChooser/signinchooser?</link>
+	    <link>https://accounts.google.com/AccountChooser</link>
 	  </item>
 </items>
 
