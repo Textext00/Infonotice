@@ -305,6 +305,12 @@
     <desc>George Mason University</desc>
     <link>https://www.gmu.edu/</link>
   </item>
+  <item>
+    <tags>drive google docs google slides google tables google forms google sites gmail</tags>
+    <name>Google Drive</name>
+    <desc>Choose an account</desc>
+    <link>https://accounts.google.com/AccountChooser/signinchooser?</link>
+  </item>
 </items>
 
 
