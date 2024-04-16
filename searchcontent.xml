@@ -342,10 +342,22 @@
 	    <link>https://quizlet.com/</link>
 	</item>
 	<item>
-	    <tags>literaturespellingwritingwritespell checkerwriting formatteressay writinggrammatical errorsaiartificial intelligenceartif intel</tags>
+	    <tags>literaturespellingwritingwritespell checkerwriting formatteressay writinggrammatical errorsaiartificial intelligenceartif intelwords</tags>
 	    <name>Grammarly</name>
 	    <desc>Responsible AI that ensures your writing and reputation shine</desc>
 	    <link>https://www.grammarly.com/</link>
+	</item>
+	<item>
+	    <tags>literaturewordssynonymsantonymsenglish dictionarydefinitionswritingwritevocabulary</tags>
+	    <name>Thesaurus.com</name>
+	    <desc>Start typing any word or phrase</desc>
+	    <link>https://www.thesaurus.com/</link>
+	</item>
+	<item>
+	    <tags>literaturewordssynonymsantonymsenglish dictionarydefinitionswritingwritevocabulary</tags>
+	    <name>Dictionary.com</name>
+	    <desc>Start typing any word or phrase</desc>
+	    <link>https://www.dictionary.com/</link>
 	</item>
 </items>
 
