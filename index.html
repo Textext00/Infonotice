@@ -177,6 +177,11 @@ font-family: 'Arial', sans-serif;
         &copy; Infonotice. All rights reserved.
     </footer>
     <script>
+    const queryString = window.location.search;
+    const urlParams = new URLSearchParams(queryString);
+    const typedText = urlParams.get('text');
+    const typedTextElement = document.getElementById('searchbox');
+    typedTextElement.textContent = typedText;
     function myFunction() {
         var x = document.getElementById("myNavbar");
         if (x.className === "navbar") {
