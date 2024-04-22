@@ -180,8 +180,9 @@ font-family: 'Arial', sans-serif;
     window.onload = function() {
         const currentURL = window.location.href;
         const lastSegment = currentURL.substring(currentURL.lastIndexOf('/') + 1);
+        const decodedSegment = decodeURIComponent(lastSegment);
         const displayElement = document.getElementById('searchbox');
-        displayElement.innerText = lastSegment;
+        displayElement.innerText = decodedSegment;
     }
     function myFunction() {
         var x = document.getElementById("myNavbar");
