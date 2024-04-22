@@ -179,7 +179,7 @@ font-family: 'Arial', sans-serif;
     <script>
     const queryString = window.location.search;
     const urlParams = new URLSearchParams(queryString);
-    const typedText = urlParams.get('text');
+    const typedText = urlParams.get('s');
     const typedTextElement = document.getElementById('searchbox');
     typedTextElement.textContent = typedText;
     function myFunction() {
