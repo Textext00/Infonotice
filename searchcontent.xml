@@ -377,6 +377,30 @@
 	    <desc>Just click on a symbol to copy.</desc>
 	    <link>https://coolsymbol.com/</link>
 	</item>
+		<item>
+		<tags>mapsdemographicaldemographicsslocationscitiescountriescontinentsworld map editormap makerempire maker world map sandboxcustom mapscustomizable maps</tags>
+		<name>Map Chart</name>
+		<desc>Create your own custom map</desc>
+		<link>https://www.mapchart.net/</link>
+	</item>
+	<item>
+		<tags>geographygeographicalmapsmap makerempire maker world map sandboxcustom mapscustomizable mapshistoryhistorical mapsincarnateancient</tags>
+		<name>Inkarnate</name>
+		<desc>Turn your ideas into incredible fantasy maps with Inkarnate's easy-to-use online map-making platform.</desc>
+		<link>https://inkarnate.com/</link>
+	</item>
+	<item>
+		<tags>geographygeographicalmapsrandom mapsandboxminecraft mapsminecraft seedscustom seedsrandom seeds</tags>
+		<name>Chunkbase</name>
+		<desc>Home . Apps . Mods . Tuts</desc>
+		<link>https://www.chunkbase.com/apps/seed-map</link>
+	</item>
+	<item>
+		<tags>learn htmllearn css learn javascriptlearn jslearn sqllearn pythonlearn javalean phplearn clearn c++learn csharplearn c#learn bootstraplearn reactlearn mysqllearn jquerylearn excellearn xmllearn djangolearn numpylearn pandaslearn node.js learn rlearn typescriptlearn angularlearn gitlearn postgresqllearn mongodblearn asplearn ailearn artif intellearn golearn kotlinlean sasslearn vuelearn dsalearn scipylearn awslearn itsoftware learningcoursesdocumentationcodecoding</tags>
+		<name>W3Schools</name>
+		<desc>Learn to Code, With the world's largest web developer site.</desc>
+		<link>https://www.w3schools.com/</link>
+	</item>
 </items>
 
 
