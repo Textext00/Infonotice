@@ -102,12 +102,6 @@
 		<link>https://jqueryui.com/</link>
 	</item>
 	<item>
-		<tags>computerssoftwaretechnology</tags>
-		<name>W3Schools</name>
-		<desc>Learn to Code with the world's largest web developer site.</desc>
-		<link>https://spaces.w3schools.com/space/</link>
-	</item>
-	<item>
 		<tags>computershardwaretechnology</tags>
 		<name>Newegg</name>
 		<desc>Components and Storage . Computer Systems . Computer Peripherals</desc>
@@ -294,10 +288,10 @@
 	    <link>https://hrana5.wordpress.com/</link>
 	  </item>
 	  <item>
-	    <tags>aiartificial intelligencegptmachine learningmlartif intelopenaiopen ai</tags>
-	    <name>ChatGPT</name>
-	    <desc>Get started: Log in . Sign up</desc>
-	    <link>https://chat.openai.com/auth/login</link>
+	    <tags>aiartificial intelligencegptmachine learningmlartif intelopenaiopen aichatgptchat gpt</tags>
+	    <name>Openai</name>
+	    <desc>Research . API . ChatGPT . Safety . Company</desc>
+	    <link>https://openai.com/</link>
 	  </item>
 	  <item>
 	    <tags>gmu blackboard gmu patriotpass gmu patriot pass gmu patriotweb gmu patriot web</tags>
@@ -396,7 +390,7 @@
 		<link>https://www.chunkbase.com/apps/seed-map</link>
 	</item>
 	<item>
-		<tags>learn htmllearn css learn javascriptlearn jslearn sqllearn pythonlearn javalean phplearn clearn c++learn csharplearn c#learn bootstraplearn reactlearn mysqllearn jquerylearn excellearn xmllearn djangolearn numpylearn pandaslearn node.js learn rlearn typescriptlearn angularlearn gitlearn postgresqllearn mongodblearn asplearn ailearn artif intellearn golearn kotlinlearn sasslearn vuelearn dsalearn scipylearn awslearn itsoftware learningcoursesdocumentationcodecoding</tags>
+		<tags>computerssoftwaretechnologylearn htmllearn css learn javascriptlearn jslearn sqllearn pythonlearn javalean phplearn clearn c++learn csharplearn c#learn bootstraplearn reactlearn mysqllearn jquerylearn excellearn xmllearn djangolearn numpylearn pandaslearn node.js learn rlearn typescriptlearn angularlearn gitlearn postgresqllearn mongodblearn asplearn ailearn artif intellearn golearn kotlinlearn sasslearn vuelearn dsalearn scipylearn awslearn itsoftware learningcoursesdocumentationcodecoding</tags>
 		<name>W3Schools</name>
 		<desc>Learn to Code, With the world's largest web developer site.</desc>
 		<link>https://www.w3schools.com/</link>
