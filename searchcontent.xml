@@ -395,6 +395,12 @@
 		<desc>Learn to Code, With the world's largest web developer site.</desc>
 		<link>https://www.w3schools.com/</link>
 	</item>
+	<item>
+		<tags>weather mapscurrent weatherlocal weatherweather todaytempurature todaytempcurrent temperature forecastwind forecastprecipitationsrainssnowstormswundermap</tags>
+		<name>Wunderground</name>
+		<desc>WUNDERMAP . Search and Favorties . Favorite</desc>
+		<link>https://www.wunderground.com/wundermap</link>
+	</item>
 </items>
 
 
